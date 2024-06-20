@@ -1,5 +1,5 @@
 def reverse(r):
-    str=" "
+    str=""
     for x in range(len(s)):
         k=len(s)-x-1
         str=str+s[k]
