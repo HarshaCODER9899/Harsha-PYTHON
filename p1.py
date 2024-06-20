@@ -1,4 +1,4 @@
-def mymax(x,y):
+def my_max(x,y):
     if x>y:
         return x
     else:
@@ -9,4 +9,4 @@ a=int(input())
 print("enter another number") 
 b=int(input())
 print("the largest of them is ")
-print(mymax(x=a,y=b))
+print(my_max(x=a,y=b))
