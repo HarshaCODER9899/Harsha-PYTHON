@@ -1,11 +1,13 @@
-def is_pal(s):
-    for x in range(len(s)):
-        k=len(s)-x-1
-        if s[x]==s[k]:
-            return True
-        else:
-            return False
+def is_palindrome(r):
+    str=""
+    for x in range(len(r)):
+        k=len(r)-x-1
+        str=str+r[k]
+    if r==str:
+      return True
+    else:
+     return False  
 
-print("enter the string to check if it is palandrome")
-p=str(input())
-print(is_pal(p))        
+print("enter string value")
+s=str(input())
+print(is_palindrome(r=s))
