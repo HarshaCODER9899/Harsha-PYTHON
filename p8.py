@@ -1,6 +1,6 @@
 #the time complexity of my_max is O(n)
 
-# the memory usage is 320 bytes
+# the memory usage is 160 bytes
 
 
 def is_palindrome(r):
